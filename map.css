@@ -1,0 +1,34 @@
+#viewDiv {
+   position: absolute;
+   top: 0;
+
+    height: 100vh;
+    width: 100%;
+  }
+
+
+/* 
+.custom-map {
+  width: 100%;
+  height: 500px;
+} */
+
+/* Customize directions panel */
+.custom-directions-panel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-directions-list {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.custom-direction {
+  margin: 5px 0;
+}
