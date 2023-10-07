@@ -61,7 +61,7 @@ require([
 
   function displayData () {
     const popupTrailheads = {
-      "title": "Trailhead",
+      "title": "Land parcel data",
       "content": "<b>Trail:</b> {NAME}<br><b>Type:</b> {Type}<br><b>Route:</b> {Route}<br><b>Length_Km:</b> {Length_Km}<br><b>"
      }
 
