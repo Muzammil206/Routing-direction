@@ -159,6 +159,32 @@ button:nth-child(1) {
       ease-in-out 0.5s forwards;
 }
 
+.download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 211px;
+  height: 58px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right,#1ab4db, #00eaff);
+  border: none;
+  transition: background-color 0.3s ease; 
+    
+}
+.download-btn > a {
+  display: flex;
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  justify-self: center;
+  align-self: center;
+}
+
+.download-btn:hover {
+  opacity: 0.7;
+  transform: translateY(-5px);
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;

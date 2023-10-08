@@ -60,7 +60,7 @@ require([
   esriConfig.apiKey = "AAPKcf508bd0094d4357b2cd73b87e0a558fPBbDqsRIKS9Gkr31H_TA7fPpXUqts5SqaNfOhDMTplGq3FDq2CTrIgFTBvv7i1Zh";
 
   const map = new Map({
-    basemap: "arcgis-navigation" //Basemap layer service
+    basemap: "arcgis-navigation-night" 
   });
 
   const view = new MapView({
@@ -178,12 +178,12 @@ require([
            direction.classList.add("custom-direction")
          });
           ///to use my own custom class
-         const directionsPanel = document.querySelector(".custom-directions-panel");
-         directionsPanel.appendChild(directions);
+        //  const directionsPanel = document.querySelector(".custom-directions-panel");
+        //  directionsPanel.appendChild(directions);
 
          ///to use defualt coustom class
-        // view.ui.empty("top-right");
-        // view.ui.add(directions, "top-right");
+        view.ui.empty("top-right");
+        view.ui.add(directions, "top-right");
 
        }
 
